@@ -12,6 +12,14 @@ public class Main {
         
         carOne.carBreak();
         carOne.carDrive();
+        
+        //Setter and Getter
+        
+        carOne.setColor("White");
+        
+        String carColor = carOne.getColor();
+        
+        System.out.println("Getter - " + carColor);
     }
     
 }
